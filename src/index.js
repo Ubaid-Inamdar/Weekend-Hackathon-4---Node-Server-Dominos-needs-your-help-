@@ -25,10 +25,6 @@ function handleServer(rq, rs) {
         rs.end("404 Not Found");
     }
     
-  
-
-
-
 }
 httpServer.listen(8081);
 module.exports = httpServer;
